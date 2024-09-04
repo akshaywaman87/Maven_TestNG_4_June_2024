@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.rerunfailscript.IAnnotationTrans"/>
+    </listeners>
+    <!--<parameter name="courseName" value="Java"/>
+    <parameter name="cityName" value="Mumbai"/>
+    <parameter name="browserName" value="edge"/>-->
+    <!--<parameter name="browserName" value="firefox"/>-->
+   <!-- <groups>
+        <run>
+            <include name="Smoke"/>
+            <include name="Sanity"/>
+        </run>f
+    </groups>-->
+    <test verbose="2" preserve-order="true" parallel ="false" thread-count="2" name="C:/Users/dell/IdeaProjects/Maven_TestNG_4_June_2024">
+        <classes>
+            <class name="testng.rerunfailscript.FailScriptExample"/>
+
+            <!--<class name="testng.parametrization.ParameterExample"/>
+            <class name="testng.parametrization.DataProviderWithExcel"/>-->
+           <!-- <class name="testng.parametrization.ParameterExample"/>-->
+            <!--<class name="testngbasic.BeforeAndAfterMethod"/>
+            <class name="testng.assertion.HardAssertExample"/>
+            <class name="testng.assertion.SoftAssertExample"/>
+            <class name="testngbasic.needOfTestNG"/>-->
+
+        </classes>
+   </test>
+</suite>    <!--        <methods>
+                    <include name="verifyMethod_1"/>
+                    <include name="verifyMethod_2"/>
+                    <include name="verifyMethod_3"/>
+                </methods>
+            </class>
+            <class name="testngbasic.BeforeAndAfterMethod">
+                <methods>
+                    <include name="verifyOpenTCSUrl"/>
+                    <include name="verifyopenAmazonUrl"/>
+                    <include name="verifyopenCampusCoffeeUrl"/>
+                </methods>
+            </class>
+            <class name="testngbasic.DependsOnGroups">
+                <methods>
+                    <include name="verifyPayment"/>
+                </methods>
+            </class>
+            <class name="testngbasic.DependsOnMethod">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifySignup"/>
+                </methods>
+            </class>
+            <class name="testngbasic.InvocationCountAttribute">
+                <methods>
+                    <include name="verifyInvocationCount"/>
+                </methods>
+            </class>
+            <class name="testngbasic.PriorityExample">
+                <methods>
+                    <include name="testCaseZ"/>
+                    <include name="testCaseM"/>
+                    <include name="testCaseH"/>
+                    <include name="testCaseA"/>
+                    <include name="testCaseN"/>
+                    <include name="testCaseP"/>
+                    <include name="testCaseR"/>
+                </methods>
+            </class>
+            <class name="testngbasic.needOfTestNG">
+                <methods>
+                    <include name="openTCSUrl"/>
+                    <include name="openAmazonUrl"/>
+                    <include name="openCampusCoffeeUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>-->
