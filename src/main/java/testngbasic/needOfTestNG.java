@@ -12,7 +12,8 @@ public class needOfTestNG {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.tcs.com/");
         driver.manage().window().maximize();
-        driver.close();
+	System.out.println("Hello TESTNG");
+        
     }
     @Test
     public void openAmazonUrl() {

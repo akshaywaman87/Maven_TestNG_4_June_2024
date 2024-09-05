@@ -7,6 +7,7 @@ public class PriorityExample {
     @Test(priority = 1)
     public void testCaseZ(){
         System.out.println("Test Case Z");
+	System.out.println("I have made changes");
     }
 
     @Test(priority = 2)
